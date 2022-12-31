@@ -53,7 +53,7 @@ if (isset($_POST['contact'])) {
             $insert_stmt->close();
             $conn->close();
 
-            header("Location: thankyou.html?success=success");
+            header("Location: content.html?success=success");
             exit();
 
         }
